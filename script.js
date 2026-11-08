@@ -1,4 +1,29 @@
 const projects = {
+    titanium: {
+        tag: 'Logo Design',
+        title: 'Titanium Hotel Apartments',
+        description: 'Logo design for Titanium Hotel Apartments and Spa — a premium hotel, residence, and wellness destination. The logo features a stylized representation of twin modern high-rise towers with golden trim, communicating luxury, architectural excellence, and high-end hospitality. The final cover logo (Logo-08) is rendered in a sophisticated 3D metallic finish with realistic drop shadows and glowing windows, set against a dark teal background. The secondary image showcases the clean, flat 2D version.',
+        image: 'assets/images/titanium-logo-cover.png',
+        images: [
+            'assets/images/titanium-logo-cover.png',
+            'assets/images/titanium-logo-2.jpg',
+            'assets/images/titanium-logo-flat.png'
+        ],
+        year: '2025',
+        role: 'Logo Design, Brand Identity',
+        client: 'Titanium Hotel Apartments & Spa',
+    },
+
+    divacosmetics: {
+        tag: 'Social Media / Content',
+        title: 'DiVA Cosmetics',
+        description: 'Social Media Posts',
+        image: 'assets/images/diva-cosmetics-1.jpg',
+        images: ['assets/images/diva-cosmetics-1.jpg', 'assets/images/diva-cosmetics-2.jpg'],
+        year: '2026',
+        role: 'Social Media for DiVA',
+        client: 'DiVA Cosmetics'
+    },
     filmmaking: {
         tag: 'Illustration / Branding',
         title: 'Filmmaking Archive Africa',
@@ -43,8 +68,23 @@ const projects = {
         tag: 'Brand Identity / Packaging',
         title: "Cheeks N' Chunks",
         description: "Full brand identity and packaging design for Cheeks N' Chunks — a vibrant Kampala restaurant. The illustrated hippo mascot in colourful African-print attire anchors a playful, culturally rooted identity. Deliverables spanned logo system, fries packaging, cake boxes, business cards, clothing branding, and a full menu.",
-        image: 'assets/images/cheeks-logo.png',
-        images: ['assets/images/cheeks-logo.png', 'assets/images/cheeks-chef.png', 'assets/images/cheeks-packaging.png'],
+        image: 'assets/images/cheeks-logo.jpg',
+        images: [
+            'assets/images/cheeks-logo.jpg',
+            'assets/images/cheeks-menu-01.png',
+            'assets/images/cheeks-menu-02.png',
+            'assets/images/cheeks-menu-03.png',
+            'assets/images/cheeks-menu-04.png',
+            'assets/images/cheeks-menu-05.png',
+            'assets/images/cheeks-menu-06.png',
+            'assets/images/cheeks-menu-07.png',
+            'assets/images/cheeks-menu-08.png',
+            'assets/images/cheeks-menu-09.png',
+            'assets/images/cheeks-menu-10.png',
+            'assets/images/cheeks-menu-11.png',
+            'assets/images/cheeks-menu-12.png',
+            'assets/images/cheeks-packaging.png'
+        ],
         year: '2023',
         role: 'Brand Identity, Packaging, Illustration',
         client: "Cheeks N' Chunks, Kampala",
@@ -82,8 +122,16 @@ const projects = {
         tag: 'Event Poster',
         title: 'Kampala Jazz Orchestra',
         description: 'Event poster series for the Kampala Jazz Orchestra "Around the World in Jazz" concert — presented by Studio 1 | Talent House at the National Theatre, Kampala. A bold collection of poster explorations blending geometric illustration, vibrant colour and dynamic typography to capture the energy of live jazz.',
-        image: 'assets/images/kampala-jazz-p1.png',
-        images: ['assets/images/kampala-jazz-p1.png', 'assets/images/kampala-jazz-p2.png', 'assets/images/kampala-jazz-p3.png', 'assets/images/kampala-jazz-p4.png'],
+        image: 'assets/images/kampala-jazz-poster-3-01.png',
+        images: [
+            'assets/images/kampala-jazz-poster-3-01.png',
+            'assets/images/kampala-jazz-poster-1-01.png',
+            'assets/images/kampala-jazz-poster-2-01.png',
+            'assets/images/kampala-jazz-p1.png',
+            'assets/images/kampala-jazz-p2.png',
+            'assets/images/kampala-jazz-p3.png',
+            'assets/images/kampala-jazz-p4.png'
+        ],
         year: '2023',
         role: 'Poster Design, Illustration',
         client: 'Kampala Jazz Orchestra',
@@ -101,7 +149,8 @@ const projects = {
         tag: 'Logo Design',
         title: 'Flykey',
         description: 'Logo design for Flykey — a drone technology brand. The mark abstracts a quadcopter drone into a clean geometric icon: four circular rotors orbiting a central hub. Black, white, and gold — sharp, tech-forward, and instantly recognisable.',
-        image: 'assets/images/flykey.png',
+        image: 'assets/images/flykey.jpg',
+        images: ['assets/images/flykey.jpg', 'assets/images/flykey.png'],
         year: '2024',
         role: 'Logo Design',
         client: 'Flykey',
@@ -146,15 +195,6 @@ const projects = {
         role: 'Poster Design, Art Direction',
         client: 'La Sierra University',
     },
-    lamalo: {
-        tag: 'Packaging Design',
-        title: 'Lamalo Soap',
-        description: 'Packaging design for Lamalo — a natural soap brand. Clean, earthy label design emphasising the organic ingredients. Applied across multiple product variants with a consistent colour-coded system for scent differentiation.',
-        image: 'assets/images/lamalo-soap.png',
-        year: '2024',
-        role: 'Packaging Design, Label Design',
-        client: 'Lamalo Soap',
-    },
     kroyalcourt: {
         tag: 'Restaurant Branding',
         title: 'K-Royal Court',
@@ -169,8 +209,17 @@ const projects = {
         tag: 'Book Design / Social Media',
         title: '2Sistars Media',
         description: 'Ongoing creative partnership with 2Sistars Media — a Ugandan film and media production company. Deliverables include the illustrated book cover and 3D mockup for "My Friend Mindy" by Corenne Tumushimiise, plus a full social media design system with branded post templates and event graphics.',
-        image: 'assets/images/2sistars-african-books.png',
-        images: ['assets/images/2sistars-african-books.png', 'assets/images/2sistars-book.png', 'assets/images/2sistars-social.png'],
+        image: 'assets/images/2sistars-social-2.jpg',
+        images: [
+            'assets/images/2sistars-social-2.jpg',
+            'assets/images/2sistars-african-books.png',
+            'assets/images/2sistars-book.png',
+            'assets/images/2sistars-social.png',
+            'assets/images/2sistars-social-3.jpg',
+            'assets/images/2sistars-social-4.jpg',
+            'assets/images/2sistars-social-5.jpg',
+            'assets/images/2sistars-social-6.jpg'
+        ],
         year: '2025',
         role: 'Book Design, Social Media Design',
         client: '2Sistars Media',
@@ -178,9 +227,16 @@ const projects = {
     kampala: {
         tag: 'Logo & Catalogue',
         title: 'Kampala Tile Market',
-        description: 'Logo design and 72-page product catalogue for Kampala Tile Market (KTM) — a retail division of the Tiles Gallery Group, distributing porcelain, ceramics, and sanitary ware across Uganda. Clean, confident identity anchored in navy and gold.',
-        image: 'assets/images/kampala-tile-market.jpg',
-        year: '2017',
+        description: 'Logo design and 72-page product catalogue series for Kampala Tile Market (KTM) — a retail division of the Tiles Gallery Group, distributing porcelain, ceramics, and sanitary ware across Uganda. Clean, confident identity anchored in navy and gold.',
+        image: 'assets/images/kampala-tile-market-catalogue-2019.png',
+        images: [
+            'assets/images/kampala-tile-market-catalogue-2019.png',
+            'assets/images/kampala-tile-market-catalogue-2018.png',
+            'assets/images/kampala-tile-market-catalogue-2017.png',
+            'assets/images/kampala-tile-market-big-sale.png',
+            'assets/images/kampala-tile-market.jpg'
+        ],
+        year: '2017 - 2019',
         role: 'Logo Design, Catalogue Layout',
         client: 'Kampala Tile Market',
     },
@@ -262,7 +318,13 @@ const projects = {
         tag: 'Logo Design',
         title: 'Pink Turtle International Daycare',
         description: 'Playful logo design for Pink Turtle International Daycare. A friendly illustrated turtle character with a globe shell — communicating international education, curiosity, and warmth for children and parents alike.',
-        image: 'assets/images/pink-turtle.png',
+        image: 'assets/images/pink-turtle.jpg',
+        images: [
+            'assets/images/pink-turtle.jpg',
+            'assets/images/pink-turtle.png',
+            'assets/images/pink-turtle-2.png',
+            'assets/images/pink-turtle-3.jpg'
+        ],
         year: '2024',
         role: 'Logo Design, Illustration',
         client: 'Pink Turtle International Daycare',
@@ -281,61 +343,91 @@ const projects = {
         tag: 'Brand Identity / Print',
         title: 'Kolaborate Platforms',
         description: 'Full brand identity and print design for Kolaborate Platforms — a Ugandan platform empowering women in business. Deliverables span logo system, brand guidelines, pull-up banners, teardrop banners, social media content, and event collateral.',
-        image: 'assets/images/kolaborate.png',
-        images: ['assets/images/kolaborate.png', 'assets/images/kolaborate-2.png', 'assets/images/kolaborate-3.png'],
+        image: 'assets/images/kolaborate-easter.jpg',
+        images: [
+            'assets/images/kolaborate-easter.jpg',
+            'assets/images/kolaborate-6.jpg',
+            'assets/images/kolaborate-4.jpg',
+            'assets/images/kolaborate-5.jpg',
+            'assets/images/kolaborate.png',
+            'assets/images/kolaborate-2.png',
+            'assets/images/kolaborate-3.png'
+        ],
         year: '2024',
         role: 'Brand Identity, Print Design, Social Media',
         client: 'Kolaborate Platforms',
     },
-    prism: {
-        tag: 'Brand Identity / Print',
-        title: 'Prism',
-        description: 'Brand identity and print design for Prism — a sub-brand within the Kolaborate ecosystem. A clean, modern identity applied across pull-up banners, teardrop banners, and social media content through 2025 and 2026.',
-        image: 'assets/images/prism.png',
-        images: ['assets/images/prism.png', 'assets/images/prism-2.png'],
-        year: '2025',
-        role: 'Brand Identity, Print Design',
-        client: 'Prism / Kolaborate Platforms',
-    },
-    diva: {
-        tag: 'Social Media / Content',
-        title: 'Diva Cosmetics',
-        description: 'Social media design, photography editing, and web content for Diva Cosmetics. Deliverables include product photography retouching, social media posts, hero web images, and AI-assisted visual content production.',
-        image: 'assets/images/diva-cosmetics.jpg',
-        images: ['assets/images/diva-cosmetics.jpg'],
-        year: '2026',
-        role: 'Social Media Design, Photography Editing, Web Design',
-        client: 'Diva Cosmetics',
-    },
-    auntporridge: {
-        tag: 'Brand Activation / Print',
-        title: 'Aunt Porridge',
-        description: 'Brand activation and print design for Aunt Porridge — a beloved Ugandan food brand. Deliverables include A3 flyers, the "Now in Busoga" multi-market campaign, T-shirt design, and event activation support materials.',
-        image: 'assets/images/aunt-porridge.png',
-        images: ['assets/images/aunt-porridge.png'],
-        year: '2025',
-        role: 'Flyer Design, Print, Brand Activation',
-        client: 'Aunt Porridge',
-    },
-    sharecard: {
-        tag: 'Brand Identity',
-        title: 'ShareCARD',
-        description: 'Brand identity and social media design for ShareCARD — a digital networking platform. Deliverables include brand identity system, social media posts across June–September, plus motion graphics and After Effects animations.',
-        image: 'assets/images/sharecard.png',
-        images: ['assets/images/sharecard.png'],
+    kroyalcottages: {
+        tag: 'Logo Design',
+        title: 'K-Royal Cottages',
+        description: 'Logo design for K-Royal Cottages — a premium cottages and nature lodge. The design features a stylized A-frame cottage nestled in hills alongside a circular K emblem, with the tagline "Wake Up To The Beautiful Sound Of Nature". The cover logo features a polished, metallic 3D finish with realistic drop shadows and glowing windows, while the secondary logo shows the clean, flat 2D version.',
+        image: 'assets/images/k-royal-cottages-2.png',
+        images: [
+            'assets/images/k-royal-cottages-2.png',
+            'assets/images/k-royal-cottages-1.png'
+        ],
         year: '2024',
-        role: 'Brand Identity, Social Media Design',
-        client: 'ShareCARD',
-    },
-    joyfulnoise: {
-        tag: 'Brand Identity',
-        title: 'Joyful Noise',
-        description: 'Logo design and brand identity for Joyful Noise — a gospel and worship collective. Multiple logo concepts developed into a full brand guide, T-shirt design, and teardrop banner mockup that express joy, faith, and community.',
-        image: 'assets/images/joyful-noise.jpg',
-        images: ['assets/images/joyful-noise.jpg'],
-        year: '2025',
         role: 'Logo Design, Brand Identity',
-        client: 'Joyful Noise',
+        client: 'K-Royal Cottages',
+    },
+    kcountryclub: {
+        tag: 'Golf Club Branding',
+        title: 'K-Country Club',
+        description: 'Brand identity for K-Country Club, Hoima City — an exclusive golf and country club. The identity centres on a silhouetted golfer mid-swing framed by sweeping green and blue ribbons, conveying prestige, motion, and the lush grounds of the club. Deliverables included logo, stationery, and business cards.',
+        image: 'assets/images/k-country-club.jpg',
+        images: ['assets/images/k-country-club.jpg', 'assets/images/k-country-club-card.jpg'],
+        year: '2018',
+        role: 'Brand Identity, Stationery Design',
+        client: 'K-Country Club, Hoima',
+    },
+    kmilk: {
+        tag: 'Brand Identity',
+        title: 'K-Milk',
+        description: 'Playful brand identity for Kikwite Dairy Farm\'s K-Milk product line — "Hoima\'s Freshest Milk." A friendly illustrated cartoon cow hugging a milk bottle creates an immediately warm and approachable brand personality, set against a bold royal blue. Designed for packaging, signage, and marketing materials.',
+        image: 'assets/images/k-milk.jpg',
+        images: ['assets/images/k-milk.jpg', 'assets/images/k-milk-2.jpg'],
+        year: '2017',
+        role: 'Brand Identity, Packaging Design',
+        client: 'Kikwite Dairy Farm, Hoima',
+    },
+    kstables: {
+        tag: 'Logo Design / Branding',
+        title: 'K-Stables',
+        description: 'Clean logo design for K-Stables in Hoima, Uganda — a professional equestrian and horse stabling facility. The visual identity features a realistic, detailed illustration of a bay horse head with a white star marking, paired with elegant metallic gold serif typography. Set against a rich blue gradient background, the logo conveys prestige, strength, and premium equestrian standards.',
+        image: 'assets/images/k-stables.jpg',
+        images: ['assets/images/k-stables.jpg', 'assets/images/k-stables-2.png'],
+        year: '2020',
+        role: 'Logo Design, Brand Identity',
+        client: 'K-Stables, Hoima',
+    },
+    prismagency: {
+        tag: 'Social Media / Branding',
+        title: 'The Prism Agency',
+        description: 'Vibrant brand identity designs, print banner layouts, and social media creatives designed for The Prism Agency and Kolaborate Platforms. Featuring clean modern typography, bold corporate green and teal color systems, and engaging infographics that simplify key marketing concepts and highlight sub-brand identity.',
+        image: 'assets/images/prism-agency-6.jpg',
+        images: [
+            'assets/images/prism-agency-6.jpg',
+            'assets/images/prism-agency-2.jpg',
+            'assets/images/prism-agency-3.jpg',
+            'assets/images/prism-agency-7.jpg',
+            'assets/images/prism-agency-1.jpg',
+            'assets/images/prism-agency-4.png',
+            'assets/images/prism-agency-5.png',
+            'assets/images/prism-agency-8.jpg'
+        ],
+        year: '2025',
+        role: 'Brand Identity, Social Media, Print Design',
+        client: 'The Prism Agency / Kolaborate Platforms',
+    },
+    foldedpages: {
+        tag: 'Social Media / Content',
+        title: 'Folded Pages',
+        description: 'Social Media Posts',
+        image: 'assets/images/folded-pages-2.jpg',
+        images: ['assets/images/folded-pages-2.jpg', 'assets/images/folded-pages-1.jpg'],
+        year: '2026',
+        role: 'Social Media Design & Content Creation',
+        client: 'Folded Pages',
     },
 };
 
@@ -354,12 +446,51 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Navbar scroll effect
     const navbar = document.querySelector('.navbar');
-    window.addEventListener('scroll', () => {
-        if (window.scrollY > 50) {
-            navbar.style.background = 'rgba(10, 10, 10, 0.95)';
-        } else {
-            navbar.style.background = 'rgba(10, 10, 10, 0.8)';
-        }
+    const onScroll = () => navbar.classList.toggle('scrolled', window.scrollY > 50);
+    window.addEventListener('scroll', onScroll, { passive: true });
+    onScroll();
+
+    // Highlight the nav link for the section in view
+    const navAnchors = [...document.querySelectorAll('.nav-links a')];
+    const sectionObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (!entry.isIntersecting) return;
+            navAnchors.forEach(a => a.classList.toggle('current', a.getAttribute('href') === '#' + entry.target.id));
+        });
+    }, { rootMargin: '-45% 0px -50% 0px' });
+    ['work', 'about', 'contact'].forEach(id => {
+        const el = document.getElementById(id);
+        if (el) sectionObserver.observe(el);
+    });
+
+    // Scroll reveal for headers and gallery tiles
+    document.documentElement.classList.add('js');
+    const revealTargets = document.querySelectorAll('.section-header, .filter-bar, .gallery-item, .about-content > *, .contact-container > *');
+    revealTargets.forEach(el => el.classList.add('reveal'));
+    if ('IntersectionObserver' in window) {
+        const revealObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('in');
+                    revealObserver.unobserve(entry.target);
+                }
+            });
+        }, { rootMargin: '0px 0px -8% 0px' });
+        revealTargets.forEach(el => revealObserver.observe(el));
+    } else {
+        revealTargets.forEach(el => el.classList.add('in'));
+    }
+
+    // Keyboard access for gallery tiles
+    document.querySelectorAll('.gallery-item').forEach(item => {
+        item.setAttribute('tabindex', '0');
+        item.setAttribute('role', 'button');
+        item.addEventListener('keydown', (e) => {
+            if (e.key === 'Enter' || e.key === ' ') {
+                e.preventDefault();
+                item.click();
+            }
+        });
     });
 
     // Mobile menu
@@ -501,6 +632,15 @@ document.addEventListener('DOMContentLoaded', () => {
             </div>
         `;
 
+        const linkContainer = document.getElementById('modalLinkContainer');
+        if (linkContainer) {
+            if (project.link) {
+                linkContainer.innerHTML = `<a href="${project.link}" target="_blank" class="project-link-btn">Launch Live Website ↗</a>`;
+            } else {
+                linkContainer.innerHTML = '';
+            }
+        }
+
         buildThumbs();
         setSlide(0);
 
@@ -511,12 +651,22 @@ document.addEventListener('DOMContentLoaded', () => {
         modal.setAttribute('aria-hidden', 'false');
         modal.classList.add('active');
         document.body.style.overflow = 'hidden';
+
+        // Update URL hash
+        if (window.location.hash !== `#${projectKey}`) {
+            history.pushState(null, null, `#${projectKey}`);
+        }
     }
 
     function closeModal() {
         modal.classList.remove('active');
         modal.setAttribute('aria-hidden', 'true');
         document.body.style.overflow = '';
+
+        // Clear URL hash
+        if (window.location.hash) {
+            history.pushState(null, null, window.location.pathname + window.location.search);
+        }
     }
 
     // Gallery slide arrows
@@ -549,4 +699,20 @@ document.addEventListener('DOMContentLoaded', () => {
 
     modalClose.addEventListener('click', closeModal);
     modal.addEventListener('click', (e) => { if (e.target === modal) closeModal(); });
+
+    // Handle initial hash on page load
+    const initialHash = window.location.hash.substring(1);
+    if (initialHash && projects[initialHash]) {
+        setTimeout(() => openModal(initialHash), 100);
+    }
+
+    // Listen for back/forward browser navigation
+    window.addEventListener('popstate', () => {
+        const hash = window.location.hash.substring(1);
+        if (hash && projects[hash]) {
+            openModal(hash);
+        } else {
+            closeModal();
+        }
+    });
 });
