@@ -997,7 +997,7 @@ footer {
 @media (max-width: 768px) {
     .modal-inner {
         grid-template-columns: 1fr;
-        grid-template-rows: auto auto;
+        grid-template-rows: max-content max-content;
         max-height: 92vh;
         overflow-y: auto;
     }
@@ -1008,7 +1008,7 @@ footer {
 
     .modal-gallery-main {
         min-height: 56vw;
-        height: 56vw;
+        height: min(80vw, 52vh);
     }
 
     .modal-thumbs {
