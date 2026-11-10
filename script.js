@@ -88,11 +88,11 @@ const projects = {
     meraki: {
         tag: 'Brand Identity',
         title: 'Meraki Body Bar',
-        description: "Brand identity for Meraki Body Bar — a premium beauty and wellness brand. The logo distils the brand's essence into a single golden teardrop containing a woman's silhouette entwined with botanical leaves, communicating natural beauty, femininity, and self-care.",
+        description: "Brand identity for Meraki Body Bar — a premium beauty and wellness brand. The logo distils the brand's essence into a single golden teardrop containing a woman's silhouette entwined with botanical leaves, communicating natural beauty, femininity, and self-care. The identity is applied across a service menu and a series of social media posts.",
         image: 'assets/images/meraki-logo.png',
-        images: ['assets/images/meraki-logo.png', 'assets/images/meraki-menu.jpg'],
+        images: ['assets/images/meraki-logo.png', 'assets/images/meraki-logo-dark.jpg', 'assets/images/meraki-logo-maroon.jpg', 'assets/images/meraki-post-1.jpg', 'assets/images/meraki-post-2.jpg', 'assets/images/meraki-post-3.jpg', 'assets/images/meraki-post-4.jpg', 'assets/images/meraki-menu-1.jpg', 'assets/images/meraki-menu-2.jpg', 'assets/images/meraki-menu-3.jpg', 'assets/images/meraki-menu-4.jpg'],
         year: '2024',
-        role: 'Logo Design, Brand Identity',
+        role: 'Logo Design, Brand Identity, Menu Design, Social Media',
         client: 'Meraki Body Bar',
     },
     provenance: {
