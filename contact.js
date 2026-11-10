@@ -4,7 +4,7 @@
    - 'formspree': { provider: 'formspree', url: 'https://formspree.io/f/YOUR_FORM_ID' }
    With no provider set, the form falls back to opening the visitor's email app, pre-filled. */
 (() => {
-    const CONTACT = { provider: '', key: '', url: '', to: 'donmagezi@gmail.com' };
+    const CONTACT = { provider: 'web3forms', key: '97d7e3d5-61a8-4636-9709-6b1c29a16b1d', url: '', to: 'donmagezi@gmail.com' };
 
     const modal = document.getElementById('contactModal');
     if (!modal) return;
