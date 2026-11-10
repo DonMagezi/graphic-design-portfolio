@@ -24,10 +24,10 @@
             });
         });
         const pause = () => {
-            const locked = $('#projectModal')?.classList.contains('active') || $('.navbar')?.classList.contains('active');
+            const locked = $('#projectModal')?.classList.contains('active') || $('#contactModal')?.classList.contains('active') || $('.navbar')?.classList.contains('active');
             locked ? lenis.stop() : lenis.start();
         };
-        ['#projectModal', '.navbar'].forEach(sel => {
+        ['#projectModal', '#contactModal', '.navbar'].forEach(sel => {
             const el = $(sel);
             if (el) new MutationObserver(pause).observe(el, { attributes: true, attributeFilter: ['class'] });
         });
