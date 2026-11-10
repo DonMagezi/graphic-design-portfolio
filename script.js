@@ -412,7 +412,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Scroll reveal for headers and gallery tiles
     document.documentElement.classList.add('js');
-    const revealTargets = document.querySelectorAll('.section-header, .filter-bar, .gallery-item, .about-content > *, .contact-container > *');
+    const revealTargets = document.querySelectorAll('.section-header p, .filter-bar, .about-content > *:not([data-split]), .contact-container > *:not([data-split])');
     revealTargets.forEach(el => el.classList.add('reveal'));
     if ('IntersectionObserver' in window) {
         const revealObserver = new IntersectionObserver((entries) => {

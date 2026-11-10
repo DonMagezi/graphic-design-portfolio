@@ -11,9 +11,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <script>document.documentElement.classList.add('js');</script>
 </head>
 
-<body>
+<body data-theme="dark">
+    <div class="loader" aria-hidden="true">
+        <div class="loader-mark"><span class="loader-clip"><span class="loader-text">DM</span></span></div>
+    </div>
+    <div class="scroll-rail" aria-hidden="true"><div class="scroll-thumb"></div></div>
     <nav class="navbar">
         <a href="#hero" class="logo" aria-label="Don Magezi — home">Don Magezi</a>
         <ul class="nav-links">
@@ -27,29 +32,29 @@
         </div>
     </nav>
 
-    <header id="hero" class="hero-section">
-        <div class="hero-bg" aria-hidden="true"></div>
+    <header id="hero" class="hero-section" data-theme-section="dark">
+        <div class="hero-bg" aria-hidden="true"><canvas class="hero-canvas"></canvas></div>
         <div class="hero-inner">
-            <h1><span>Don</span> <span>Magezi</span></h1>
+            <h1 data-split="chars"><span>Don</span> <span>Magezi</span></h1>
             <div class="hero-side">
-                <a href="#work" class="hero-role">Graphic designer &amp; art director <span aria-hidden="true">&searr;</span></a>
-                <p>I design brands, film posters and campaigns that make an impact.</p>
+                <a href="#work" class="hero-role hero-fade" style="--d:.9s">Graphic designer &amp; art director <span aria-hidden="true">&searr;</span></a>
+                <p class="hero-fade" style="--d:1.05s">I design brands, film posters and campaigns that make an impact.</p>
             </div>
         </div>
-        <div class="hero-meta">
+        <div class="hero-meta hero-fade" style="--d:1.25s">
             <div><span>Based in</span><p>Kampala, Uganda</p></div>
             <div><span>Contact</span><p><a href="mailto:donmagezi@gmail.com">donmagezi@gmail.com</a></p></div>
         </div>
     </header>
 
-    <section id="intro" class="intro-section">
+    <section id="intro" class="intro-section" data-theme-section="dark">
         <img class="intro-photo" src="assets/images/don-magezi.jpg" alt="Portrait of Don Magezi" width="1000" height="1500">
         <p class="intro-statement">I'm a graphic designer and art director with over a decade of experience, creating brand identities, film posters and campaigns that look and feel <em>right</em>. I am based in Kampala, Uganda.</p>
     </section>
 
-    <section id="work" class="work-section">
+    <section id="work" class="work-section" data-theme-section="light">
         <div class="section-header">
-            <h2>Selected Work</h2>
+            <h2 data-split="words">Selected Work</h2>
             <p>Brand identity, film, advertising and more.</p>
         </div>
 
@@ -292,9 +297,9 @@
         </div>
     </section>
 
-    <section id="about" class="about-section">
+    <section id="about" class="about-section" data-theme-section="light">
         <div class="about-content">
-            <h2>About</h2>
+            <h2 data-split="words">About</h2>
             <div class="about-body">
                 <p>I'm an accomplished, multidisciplinary graphic designer and art director with over a decade of experience, based in Kampala, Uganda. I bring creativity, versatility, and strategic thinking to every project — with a passion for visual storytelling and a keen eye for detail.</p>
                 <p>I conceptualise and execute innovative ideas that deliver powerful visual impact, translating complex concepts into visually captivating designs. I'm also a Sickle Cell Warrior &amp; Advocate, and co-founder of the <strong>Raremark Foundation</strong> — a global community for people affected by Sickle Cell Disease.</p>
@@ -315,9 +320,9 @@
         </div>
     </section>
 
-    <section id="contact" class="contact-section">
+    <section id="contact" class="contact-section" data-theme-section="dark">
         <div class="contact-container">
-            <h2>Have a project in mind?</h2>
+            <h2 data-split="words">Have a project in mind?</h2>
             <p>Send me a note about what you need and we'll take it from there.</p>
             <a href="mailto:donmagezi@gmail.com" class="btn-primary">Start a project</a>
             <div class="social-links">
@@ -327,12 +332,13 @@
         </div>
     </section>
 
-    <footer>
+    <footer data-theme-section="dark">
+        <span class="footer-mark" aria-hidden="true">Don Magezi</span>
         <p>&copy; 2026 DMD — Don Magezi</p><p>Designed in Kampala</p>
     </footer>
 
     <!-- Project Modal -->
-    <div class="modal-overlay" id="projectModal" aria-modal="true" role="dialog" aria-hidden="true">
+    <div class="modal-overlay" id="projectModal" data-lenis-prevent aria-modal="true" role="dialog" aria-hidden="true">
         <div class="modal">
             <button class="modal-close" id="modalClose" aria-label="Close modal">&times;</button>
 
@@ -364,7 +370,9 @@
         </div>
     </div>
 
+    <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js"></script>
     <script src="script.js"></script>
+    <script src="motion.js"></script>
 </body>
 
 </html>
