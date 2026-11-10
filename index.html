@@ -10,50 +10,46 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Space+Grotesk:wght@300;400;500;700&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <nav class="navbar">
-        <a href="#hero" class="logo">
-            <img src="assets/images/dmd-logo.png" alt="DMD — Design Matters" class="logo-img">
-        </a>
+        <a href="#hero" class="logo" aria-label="Don Magezi — home">Don Magezi</a>
         <ul class="nav-links">
             <li><a href="#work">Work</a></li>
             <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="mailto:donmagezi@gmail.com" class="nav-cta">Get in touch</a></li>
         </ul>
-        <div class="hamburger">
-            <span></span>
+        <div class="hamburger" aria-label="Menu" role="button" tabindex="0">
             <span></span>
             <span></span>
         </div>
     </nav>
 
     <header id="hero" class="hero-section">
-        <div class="hero-content">
-            <span class="hero-eyebrow">Graphic Designer &amp; Art Director</span>
-            <h1>Hi, I'm <span class="highlight">Don Magezi.</span></h1>
-            <p>Multidisciplinary graphic designer and art director based in Kampala, Uganda — crafting bold identities, film posters, and campaigns that make an impact.</p>
-            <p class="hero-tagline">DMD — Design Matters Deeply.</p>
-            <a href="#work" class="scroll-down-arrow" aria-label="Scroll to Selected Works">
-                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                    <polyline points="6 9 12 15 18 9"></polyline>
-                </svg>
-            </a>
+        <div class="hero-bg" aria-hidden="true"></div>
+        <div class="hero-inner">
+            <h1><span>Don</span> <span>Magezi</span></h1>
+            <div class="hero-side">
+                <a href="#work" class="hero-role">Graphic designer &amp; art director <span aria-hidden="true">&searr;</span></a>
+                <p>I design brands, film posters and campaigns that make an impact.</p>
+            </div>
         </div>
-        <div class="hero-visual">
-            <div class="abstract-shape"></div>
+        <div class="hero-meta">
+            <div><span>Based in</span><p>Kampala, Uganda</p></div>
+            <div><span>Contact</span><p><a href="mailto:donmagezi@gmail.com">donmagezi@gmail.com</a></p></div>
         </div>
     </header>
 
+    <section id="intro" class="intro-section">
+        <p class="intro-statement">I'm a graphic designer and art director with over a decade of experience, creating brand identities, film posters and campaigns that look and feel <em>right</em>. I am based in Kampala, Uganda.</p>
+    </section>
+
     <section id="work" class="work-section">
         <div class="section-header">
-            <span class="section-label">01 — Portfolio</span>
-            <h2>Selected Works</h2>
-            <p>A curation of projects spanning brand identity, film, advertising, and more.</p>
+            <h2>Selected Work</h2>
+            <p>Brand identity, film, advertising and more.</p>
         </div>
 
         <div class="filter-bar">
@@ -346,41 +342,41 @@
 
     <section id="about" class="about-section">
         <div class="about-content">
-            <span class="section-label">02 — About</span>
-            <h2>About Don</h2>
-            <p>I'm an accomplished, multidisciplinary graphic designer and art director with over a decade of experience, based in Kampala, Uganda. I bring creativity, versatility, and strategic thinking to every project — with a passion for visual storytelling and a keen eye for detail.</p>
-            <p>I conceptualise and execute innovative ideas that deliver powerful visual impact, translating complex concepts into visually captivating designs. I'm also a Sickle Cell Warrior & Advocate, and co-founder of the <strong>Raremark Foundation</strong> — a global community for people affected by Sickle Cell Disease.</p>
-            <div class="skills">
-                <span>Brand Identity</span>
-                <span>Film Poster Design</span>
-                <span>Art Direction</span>
-                <span>Advertising</span>
-                <span>Illustration</span>
-                <span>Packaging Design</span>
-                <span>Photography</span>
-                <span>Adobe Illustrator</span>
-                <span>Adobe Photoshop</span>
-                <span>Adobe InDesign</span>
-                <span>Visual Storytelling</span>
+            <h2>About</h2>
+            <div class="about-body">
+                <p>I'm an accomplished, multidisciplinary graphic designer and art director with over a decade of experience, based in Kampala, Uganda. I bring creativity, versatility, and strategic thinking to every project — with a passion for visual storytelling and a keen eye for detail.</p>
+                <p>I conceptualise and execute innovative ideas that deliver powerful visual impact, translating complex concepts into visually captivating designs. I'm also a Sickle Cell Warrior &amp; Advocate, and co-founder of the <strong>Raremark Foundation</strong> — a global community for people affected by Sickle Cell Disease.</p>
+                <div class="skills">
+                    <span>Brand Identity</span>
+                    <span>Film Poster Design</span>
+                    <span>Art Direction</span>
+                    <span>Advertising</span>
+                    <span>Illustration</span>
+                    <span>Packaging Design</span>
+                    <span>Photography</span>
+                    <span>Adobe Illustrator</span>
+                    <span>Adobe Photoshop</span>
+                    <span>Adobe InDesign</span>
+                    <span>Visual Storytelling</span>
+                </div>
             </div>
         </div>
     </section>
 
     <section id="contact" class="contact-section">
         <div class="contact-container">
-            <span class="section-label">03 — Contact</span>
-            <h2>Let's Create Together</h2>
-            <p>Have a project in mind? Reach out and let's discuss.</p>
-            <a href="mailto:donmagezi@gmail.com" class="email-link">donmagezi@gmail.com</a>
-
+            <h2>Have a project in mind?</h2>
+            <p>Send me a note about what you need and we'll take it from there.</p>
+            <a href="mailto:donmagezi@gmail.com" class="btn-primary">Start a project</a>
             <div class="social-links">
+                <a href="mailto:donmagezi@gmail.com" class="social-link">donmagezi@gmail.com</a>
                 <a href="https://www.linkedin.com/in/don-magezi-1a187a36" target="_blank" rel="noopener" class="social-link">LinkedIn</a>
             </div>
         </div>
     </section>
 
     <footer>
-        <p>&copy; 2026 DMD — Don Magezi. All rights reserved.</p>
+        <p>&copy; 2026 DMD — Don Magezi</p><p>Designed in Kampala</p>
     </footer>
 
     <!-- Project Modal -->
