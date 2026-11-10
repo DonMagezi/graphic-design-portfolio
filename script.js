@@ -300,16 +300,6 @@ const projects = {
         role: 'Art Direction, Poster Design',
         client: 'Vodafone Uganda / Aggrey & Clifford',
     },
-    jameson: {
-        tag: 'Concept Design',
-        title: 'Jameson — Pop Up Party',
-        description: 'Conceptual event poster for a Jameson Irish Whiskey Pop Up Party — created as a pitch piece while at Aggrey & Clifford. Targeted at an 18–25 year old audience. Bold, premium party aesthetic featuring DJ Crisio at Sky Lounge, Kampala.',
-        image: 'assets/images/jameson-poster.jpg',
-        images: ['assets/images/jameson-poster.jpg'],
-        year: '2016',
-        role: 'Concept, Poster Design',
-        client: 'Conceptual / Aggrey & Clifford',
-    },
     reve: {
         tag: 'Brand Identity',
         title: 'Hôtel Rêve Du Lac',
@@ -334,11 +324,11 @@ const projects = {
         tag: 'Logo Design',
         title: 'Pink Turtle International Daycare',
         description: 'Playful logo design for Pink Turtle International Daycare. A friendly illustrated turtle character with a globe shell — communicating international education, curiosity, and warmth for children and parents alike.',
-        image: 'assets/images/pink-turtle.png',
+        image: 'assets/images/pink-turtle-3.jpg',
         images: [
+            'assets/images/pink-turtle-3.jpg',
             'assets/images/pink-turtle.png',
-            'assets/images/pink-turtle-2.png',
-            'assets/images/pink-turtle-3.jpg'
+            'assets/images/pink-turtle-2.png'
         ],
         year: '2024',
         role: 'Logo Design, Illustration',
