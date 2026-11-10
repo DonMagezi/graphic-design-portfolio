@@ -310,15 +310,6 @@ const projects = {
         role: 'Concept, Poster Design',
         client: 'Conceptual / Aggrey & Clifford',
     },
-    kinvestments: {
-        tag: 'Logo Design',
-        title: 'K-Investments Ltd',
-        description: 'Logo design for K-Investments Ltd — a Ugandan investment firm. The mark combines bar chart growth bars with a rising arrow inside a bold green circular ring, communicating financial growth and forward momentum. Tagline: "Your future brought forward."',
-        image: 'assets/images/k-investments.jpg',
-        year: '2018',
-        role: 'Logo Design',
-        client: 'K-Investments Ltd',
-    },
     reve: {
         tag: 'Brand Identity',
         title: 'Hôtel Rêve Du Lac',
@@ -343,9 +334,8 @@ const projects = {
         tag: 'Logo Design',
         title: 'Pink Turtle International Daycare',
         description: 'Playful logo design for Pink Turtle International Daycare. A friendly illustrated turtle character with a globe shell — communicating international education, curiosity, and warmth for children and parents alike.',
-        image: 'assets/images/pink-turtle.jpg',
+        image: 'assets/images/pink-turtle.png',
         images: [
-            'assets/images/pink-turtle.jpg',
             'assets/images/pink-turtle.png',
             'assets/images/pink-turtle-2.png',
             'assets/images/pink-turtle-3.jpg'
@@ -382,29 +372,6 @@ const projects = {
         role: 'Brand Identity, Print Design, Social Media',
         client: 'Kolaborate Platforms',
     },
-    kroyalcottages: {
-        tag: 'Logo Design',
-        title: 'K-Royal Cottages',
-        description: 'Logo design for K-Royal Cottages — a premium cottages and nature lodge. The design features a stylized A-frame cottage nestled in hills alongside a circular K emblem, with the tagline "Wake Up To The Beautiful Sound Of Nature". The cover logo features a polished, metallic 3D finish with realistic drop shadows and glowing windows, while the secondary logo shows the clean, flat 2D version.',
-        image: 'assets/images/k-royal-cottages-2.png',
-        images: [
-            'assets/images/k-royal-cottages-2.png',
-            'assets/images/k-royal-cottages-1.png'
-        ],
-        year: '2024',
-        role: 'Logo Design, Brand Identity',
-        client: 'K-Royal Cottages',
-    },
-    kcountryclub: {
-        tag: 'Golf Club Branding',
-        title: 'K-Country Club',
-        description: 'Brand identity for K-Country Club, Hoima City — an exclusive golf and country club. The identity centres on a silhouetted golfer mid-swing framed by sweeping green and blue ribbons, conveying prestige, motion, and the lush grounds of the club. Deliverables included logo, stationery, and business cards.',
-        image: 'assets/images/k-country-club.jpg',
-        images: ['assets/images/k-country-club.jpg', 'assets/images/k-country-club-card.jpg'],
-        year: '2018',
-        role: 'Brand Identity, Stationery Design',
-        client: 'K-Country Club, Hoima',
-    },
     kmilk: {
         tag: 'Brand Identity',
         title: 'K-Milk',
@@ -414,16 +381,6 @@ const projects = {
         year: '2017',
         role: 'Brand Identity, Packaging Design',
         client: 'Kikwite Dairy Farm, Hoima',
-    },
-    kstables: {
-        tag: 'Logo Design / Branding',
-        title: 'K-Stables',
-        description: 'Clean logo design for K-Stables in Hoima, Uganda — a professional equestrian and horse stabling facility. The visual identity features a realistic, detailed illustration of a bay horse head with a white star marking, paired with elegant metallic gold serif typography. Set against a rich blue gradient background, the logo conveys prestige, strength, and premium equestrian standards.',
-        image: 'assets/images/k-stables.jpg',
-        images: ['assets/images/k-stables.jpg', 'assets/images/k-stables-2.png'],
-        year: '2020',
-        role: 'Logo Design, Brand Identity',
-        client: 'K-Stables, Hoima',
     },
     prismagency: {
         tag: 'Social Media / Branding',
