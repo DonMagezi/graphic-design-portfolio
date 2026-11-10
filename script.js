@@ -1,18 +1,4 @@
 const projects = {
-    titanium: {
-        tag: 'Logo Design',
-        title: 'Titanium Hotel Apartments',
-        description: 'Logo design for Titanium Hotel Apartments and Spa — a premium hotel, residence, and wellness destination. The logo features a stylized representation of twin modern high-rise towers with golden trim, communicating luxury, architectural excellence, and high-end hospitality. The final cover logo (Logo-08) is rendered in a sophisticated 3D metallic finish with realistic drop shadows and glowing windows, set against a dark teal background. The secondary image showcases the clean, flat 2D version.',
-        image: 'assets/images/titanium-logo-cover.png',
-        images: [
-            'assets/images/titanium-logo-cover.png',
-            'assets/images/titanium-logo-2.jpg',
-            'assets/images/titanium-logo-flat.png'
-        ],
-        year: '2025',
-        role: 'Logo Design, Brand Identity',
-        client: 'Titanium Hotel Apartments & Spa',
-    },
 
     divacosmetics: {
         tag: 'Social Media / Content',
@@ -145,16 +131,6 @@ const projects = {
         role: 'Logo Design',
         client: 'The Elbow Room Podcast',
     },
-    ultimate: {
-        tag: 'Brand Identity',
-        title: 'Ultimate Brand Consultants',
-        description: 'Brand identity and business card design for Ultimate Brand Consultants. The mark pairs a chess king and its base with a classical serif wordmark, framing the name between the two halves of the piece. Crimson and slate grey on white, with a reversed white-on-crimson version for the card back.',
-        image: 'assets/images/ultimate-logo.jpg',
-        images: ['assets/images/ultimate-logo.jpg', 'assets/images/ultimate-card.jpg', 'assets/images/ultimate-back.jpg'],
-        year: '2021',
-        role: 'Logo Design, Business Card Design',
-        client: 'Ultimate Brand Consultants',
-    },
     catcha: {
         tag: 'Logo & Stationery',
         title: 'Catcha Therapy',
@@ -264,8 +240,8 @@ const projects = {
         tag: 'Advertising',
         title: 'Aggrey & Clifford',
         description: 'Creative campaigns for Aggrey & Clifford — an Africa-based full-service integrated advertising agency. Work included Christmas Cards, Party Invitations and event promotional materials.',
-        image: 'assets/images/aggrey-tree.jpg',
-        images: ['assets/images/aggrey-tree.jpg', 'assets/images/aggrey-unplug.jpg'],
+        image: 'assets/images/aggrey-unplug.jpg',
+        images: ['assets/images/aggrey-unplug.jpg', 'assets/images/aggrey-tree.jpg'],
         year: '2016',
         role: 'Art Direction, Design',
         client: 'Aggrey & Clifford',
@@ -351,7 +327,6 @@ const projects = {
         image: 'assets/images/kolaborate-easter.jpg',
         images: [
             'assets/images/kolaborate-easter.jpg',
-            'assets/images/kolaborate-6.jpg',
             'assets/images/kolaborate-4.jpg',
             'assets/images/kolaborate-5.jpg',
             'assets/images/kolaborate.png',
